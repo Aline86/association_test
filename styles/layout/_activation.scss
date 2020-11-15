@@ -1,0 +1,18 @@
+.container{
+    
+    .activation_form{
+        display: inline-block;
+        text-align: left;
+        .input{
+            height: 50px;
+            width: 250px;
+            border-radius: 2px;
+            border: 1px solid black;
+        }
+        .button{
+            height: 50px;
+            width: 50px;
+        }
+        
+    }
+}

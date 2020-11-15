@@ -1,0 +1,97 @@
+
+.calendar
+{
+    background:#fff;
+    border-radius:4px;
+    color:#222629;
+    overflow:hidden;
+    
+ .header
+{
+    background:#ddd;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+}
+ .month
+{
+    display:inline-block;
+    font-weight:bold;
+}
+
+button
+{
+    background:none;
+    color:inherit;
+    cursor:pointer;
+    font-family:Consolas;
+    font-size:1.75rem;
+    height:100%;
+    padding:0 15px;
+:hover
+{
+    color:#009FB7;
+}
+
+:first-child
+{
+    float:left;
+}
+
+:last-child
+{
+    float:right;
+}
+}
+ .cell 
+{
+    background:#fff;
+    color:#c0751f;
+    box-sizing:border-box;
+    display:inline-block;
+    padding:10px 0;
+    text-align:center;
+    width:calc(100% / 7);
+   
+}
+.popup{
+    width: 200px;
+    height:200px;
+    background-color: pink !important;
+}
+.day
+{
+    font-size:.8rem;
+    padding:8px 0;
+}
+
+.today
+{
+    background:rgb(149, 219, 230);
+    color:rgb(255, 81, 0);
+}
+}
+.fa-pencil-alt{
+    font-size: 30px;
+    color: black;
+}
+.fa-minus-circle{
+    font-size: 30px;
+    color: red;
+}
+.ajout{    
+    text-align: right; 
+    font-size: 20px;
+    font-weight: bold;  
+    a {
+        color: orange;
+    }
+}
+
+.tool{
+    background-color: rgb(223, 112, 72);
+    color: black;
+    position: absolute;
+    border-radius: 20px;
+    padding: 15px;
+}

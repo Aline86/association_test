@@ -1,0 +1,100 @@
+@media(max-width:1600px){
+    .container{
+        width: 74vw;
+        .title{
+            h1{
+                color: rgb(228, 91, 28);
+            }
+        }
+        .navbar{
+            margin-bottom: 30px;
+            li{
+                list-style-type: none;
+                margin-left: 10px;
+                .logout:hover .text_content {
+                    display: block;
+                }
+            }
+            .nav-item{
+                .fa-times{
+                    color: red;
+                }      
+            }
+        }
+        .form{
+           
+            height: 30%;
+            background-color: white;
+            border: black solid 1px;
+            position:absolute;
+            right: 13vw;
+            top: 17%;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-top: 5%;
+            .input{
+                border-radius: 3px;
+                height: 50px;
+                border: 1px solid black;
+            }
+        }
+        .form2{
+            height: 30%;
+            background-color: white;
+            border: red solid 1px;
+            position:absolute;
+            right: 13vw;
+            top: 17%;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-top: 5%;
+            .input2{
+                border-radius: 3px;
+                height: 50px;
+                border: 1px solid red;
+            }
+        }
+
+    }
+}
+@media(min-width:1600px){
+    .container{
+        .navbar{
+            margin-bottom: 30px;
+            li{
+                list-style-type: none;
+                margin-left: 10px;
+                .logout:hover .text_content {
+                    display: block;
+                }
+            }
+            .nav-item{
+                
+                .fa-times{
+                    color: red;
+                }      
+            }
+        }
+        .form{
+            position:absolute;
+            right: 20.5vw;
+            top: 15%;
+            .input{
+                border-radius: 3px;
+                height: 50px;
+                border: 1px solid black;
+            }
+        }
+        .form2{
+            position:absolute;
+            right: 20.5vw;
+            top: 15%;
+            .input2{
+                border-radius: 3px;
+                height: 50px;
+                border: 1px solid red;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,39 @@
+.container{ 
+   .text_activation{
+        color: black;
+    }
+    .main{
+        width: 100%;
+        height: 400px;  
+        display: flex;
+        flex-wrap: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(190, 190, 190, 0.5);    
+        .popup{ 
+            width: 500px;
+            height: 200px;    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            background-color: white;
+            .form3 {    
+                .column{
+                    
+                    .direction{
+                        .text{
+                            width: 350px;
+                            height: 50px;
+                        }
+                        .submit{
+                            height: 50px; 
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+   

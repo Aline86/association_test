@@ -1,0 +1,47 @@
+.container{
+    .space{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        .titre{
+            text-align: center;
+            
+            margin: 0;
+            background-color: rgb(245, 168, 81);
+            border-radius: 3px;
+            padding: 0;
+            margin: 0;
+            h2{
+                padding: 0;
+            }
+        }
+        .content{
+            display: flex;
+            .langue1{
+                width: 50%;
+                border-right: 1px solid black;
+                background-color: rgb(243, 229, 203);
+                h2{
+                    color: red;
+                    font-weight: bold;
+                }
+                h3{
+                    color: blue; 
+                }
+                h4{
+                    color: green;
+                }
+            }
+            .langue2{
+                width: 50%;
+                
+                .pdf{
+                    width: 50%;    
+                }     
+            }
+            .option{
+                width: 50%;        
+            }
+        }
+    }
+}
